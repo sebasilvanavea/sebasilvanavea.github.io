@@ -15,7 +15,7 @@ const Navbar = () => {
             {/* Enlaces de navegación */}
             <ul className={`navbar-links ${isOpen ? 'open' : ''}`}>
                 <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#about">Sobre Mí</a></li>
+                <li><a href="#about">Sobre Nosotros</a></li>
                 <li><a href="#services">Servicios</a></li>
                 <li><a href="#contact">Contacto</a></li>
             </ul>
