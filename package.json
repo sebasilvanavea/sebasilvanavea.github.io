@@ -1,5 +1,5 @@
 {
-  "name": "mi-spa-informativa",
+  "name": "ssn.novation",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -49,5 +49,5 @@
     "postcss": "^8.4.47",
     "tailwindcss": "^3.4.14"
   },
-  "homepage": "https://sebasilvanavea.github.io/ssn-novation"
+  "homepage": "https://sebasilvanavea.github.io"
 }
