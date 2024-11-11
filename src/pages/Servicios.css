@@ -1,0 +1,41 @@
+.servicios-section {
+    padding: 4rem 2rem;
+    background-color: #f7f9fc;
+    color: #333;
+}
+
+.servicios-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.servicio-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.servicio-card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+}
+
+.servicio-card h2 {
+    color: #1a202c;
+}
+
+.servicio-card p {
+    font-size: 1rem;
+    color: #4a5568;
+}
+
+.servicios-section h1 {
+    color: #1a202c;
+}
+
+.servicios-section p {
+    color: #4a5568;
+}
