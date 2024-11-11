@@ -4,7 +4,7 @@ const Inicio = () => {
     return (
         <section id="inicio" className="relative flex flex-col items-center justify-center h-screen overflow-hidden text-center text-white">
             {/* Video de fondo */}
-            <video className="absolute top-0 left-0 w-full h-full object-cover z-0" src="/img/Scientists4.mp4" autoPlay loop muted playsInline />
+            <video className="absolute top-0 left-0 w-full h-full object-cover z-0" src="{process.env.PUBLIC_URL}/img/Scientists4.mp4" autoPlay loop muted playsInline />
 
             {/* Contenido superpuesto */}
             <div className="relative z-10 p-8">
