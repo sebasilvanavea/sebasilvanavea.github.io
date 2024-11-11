@@ -32,4 +32,27 @@ h1 {
 .section h1 {
   margin-top: 4rem; /* Añade espacio entre el navbar y el h1 */
 }
+.social-icons {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  z-index: 1000;
+}
+
+.social-icons a {
+  text-decoration: none;
+}
+
+.social-icons img {
+  width: 40px; /* Ajusta el tamaño del ícono aquí */
+  height: 40px;
+  transition: transform 0.3s;
+}
+
+.social-icons img:hover {
+  transform: scale(1.1); /* Efecto de zoom al pasar el cursor */
+}
 
