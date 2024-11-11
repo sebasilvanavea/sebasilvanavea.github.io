@@ -4,7 +4,7 @@ import './Footer.css'; // Archivo CSS para estilizar el footer
 const Footer = () => {
     return (
         <footer className="footer">
-            <p>&copy; {new Date().getFullYear()} Mi Sitio Web. Todos los derechos reservados.</p>
+            <p>&copy; {new Date().getFullYear()} Ssn Novation. Todos los derechos reservados.</p>
         </footer>
     );
 };
