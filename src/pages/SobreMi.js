@@ -31,7 +31,7 @@ const SobreMi = () => {
                 {/* Sub-sección de Información Personal y Foto */}
                 <div className="flex flex-col items-center md:items-start text-center md:text-left">
                     <div className="flex justify-center md:justify-start">
-                        <img src="{process.env.PUBLIC_URL}/img/perfil.jpg" alt="Sebastián Silva Navea"
+                        <img src={`${process.env.PUBLIC_URL}/img/perfil.jpg`} alt="Sebastián Silva Navea"
                              className="rounded-full shadow-lg w-48 h-48 object-cover transition-transform transform hover:scale-110 duration-300"/>
                     </div>
                     <h1 className="text-4xl font-semibold mb-6">- Sobre Nosotros -</h1>
